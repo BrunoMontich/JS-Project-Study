@@ -1,0 +1,3 @@
+n1.toLocaleString('pt-BR', {style: 'currency', currency:'BRL'}) // Comando para colocar o valor de n1 em dinheiro.
+
+Quando for utilizar o switch(){} UTILIZAR O BREAK!
