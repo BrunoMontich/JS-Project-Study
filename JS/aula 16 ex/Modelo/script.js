@@ -38,7 +38,9 @@ let largest = 0
 
 
 function fim(){
-  
+    if(numeros.length == 0){
+        alert('Adicione valores antes de finalizar')
+    } else{
     const largest = Math.max(...numeros)
     const min = Math.min(...numeros)
     const somatoria = numeros.reduce((a,b) => a + b, 0)
@@ -53,6 +55,6 @@ function fim(){
     menor.innerHTML = (`O menor número entre eles é: ${min}`)
     soma.innerHTML = (`A soma dos números é: ${somatoria}`)
     media.innerHTML = (`A média dos números é: ${med}`)
- 
+    }
     
 }
